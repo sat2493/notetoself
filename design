@@ -1,0 +1,29 @@
+Note App Project
+
+1. Interface
+2. Application
+3. Storage Backend
+
+
+Interface)
+https://get.foundation/sites/docs/button.html
+
+Application)
+Python Flask
+
+Storage Backend)
+Postgres
+
+—
+
+Python App (With Flask)
+
+Requirements)
+- RESTAPI
+    - http://servername:8080/list
+        - List the. notes in JSON
+    - http://servername:8080/add
+        - Create new note from JSON
+    - http://servername:8080/remove
+        - Remove note
+
