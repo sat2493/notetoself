@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation Starter Template</title>
+  <link rel="stylesheet" href="assets/css/foundation.css" />
+  <style>
+    body {
+      padding: 30px;
+    }
+
+    .demo {
+      background: #1779ba;
+    }
+
+    .cell {
+      /*background: dodgerblue;*/
+      background: #1779ba;
+      line-height: 50px;
+      height: 50px;
+      color: white;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cell:nth-child(odd) {
+      background: #37a0e6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-4">4 cells</div>
+    <div class="cell auto">
+      <div class="radius bordered shadow card">
+        <div class="card-divider">
+          <button type="button" class="button rounded bordered shadow alert">Remove</button>
+        </div>
+        <div class="card-section">
+          <h4>This is a card.</h4>
+          <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="assets/js/jquery.js"></script>
+  <!-- <script src="js/vendor/what-input.js"></script> -->
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+
+</html>

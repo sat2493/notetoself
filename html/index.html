@@ -12,34 +12,57 @@
 <body>
   <div class="title-bar">
     <div class="title-bar-left">
-      <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
       <span class="title-bar-title">Note to Self</span>
     </div>
     <div class="title-bar-right">
-      <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
     </div>
   </div>
 
 
 
-  <div class="grid-x">
-
+  <!-- <div class="grid-x">
     <div class="row column large-3 callout primary">
-      <h4>Column for list</h4>
+      <h4>List of your notes</h4>
+      <a class="secondary button expanded">The first 50 characters of a note</a>
+      <a class="secondary button expanded">The first 50 characters of a note</a>
+      <a class="secondary button expanded">The first 50 characters of a note</a>
     </div>
     <div class="row column large-9 callout secondary">
-      <h4>Column for content</h4>
+      <h4>Column for contents</h4>
+    </div> -->
+  <div class="grid-container full">
+    <div class="grid-x grid-margin-x">
+
+      <div class="cell small-4">
+        <div class="sidebar cell grid-padding-x">Inside grid y
+          <div id="notelist">
+            <ul>
+              <li>First Item</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell auto">
+        <div class="radius bordered shadow card">
+          <div class="card-divider align-right">
+            <button type="button" class="button rounded bordered shadow alert">Remove</button>
+          </div>
+          <div class="card-section">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-  </div>
   </div>
 
 
-
-
+  <script src="assets/js/jquery.js"></script>
   <script src="assets/js/vendor.js"></script>
   <script src="assets/js/foundation.js"></script>
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script src="assets/js/restquery.js"></script>
 </body>
 
 </html>
